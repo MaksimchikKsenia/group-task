@@ -1,0 +1,70 @@
+.filterForm {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px 20px;
+}
+
+
+.filterForm select {
+    padding: 10px;
+    border: 1px solid rgb(134, 212, 236);
+    border-radius: 10px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.filterForm select:nth-last-child() {
+    margin-right: 0;
+}
+
+select {
+    background-color: #8abefa79;
+    border: 1px solid #ced4da;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select ::after {
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+}
+
+select:hover {
+    border-color: #a0a0a0;
+}
+
+select option {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 8px 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+select option:hover {
+    background-color: #f0f0f0;
+}
+
+.label-panel{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.label{
+    color: rgb(30, 89, 238);
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.label:nth-last-child(){
+    margin-right: 0;
+}

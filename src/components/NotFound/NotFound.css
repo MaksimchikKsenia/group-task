@@ -1,0 +1,10 @@
+.msg-text {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	color:black;
+}
+
+.msg-wrapper {
+	margin: 50px auto 20px;
+}
